@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D2C73520E7AC3000657EB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2C73420E7AC3000657EB7 /* UIKit.framework */; };
+		42D2C73720E7AC3000657EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2C73620E7AC3000657EB7 /* Foundation.framework */; };
+		42D2C73920E7AC3000657EB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2C73820E7AC3000657EB7 /* CoreGraphics.framework */; };
+		42D2C73F20E7AC3000657EB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42D2C73D20E7AC3000657EB7 /* InfoPlist.strings */; };
+		42D2C74120E7AC3000657EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2C74020E7AC3000657EB7 /* main.m */; };
+		42D2C74520E7AC3000657EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2C74420E7AC3000657EB7 /* AppDelegate.m */; };
+		42D2C75220E7ACC100657EB7 /* ClassicPhotosDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D2C75120E7ACC100657EB7 /* ClassicPhotosDictionary.plist */; };
+		42D2C75620E7AD4900657EB7 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2C75420E7AD4900657EB7 /* ListViewController.m */; };
+		42D2C75720E7AD4900657EB7 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D2C75520E7AD4900657EB7 /* ListViewController.xib */; };
+		42D2C75A20E7AEF900657EB7 /* PhotoOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2C75920E7AEF900657EB7 /* PhotoOperations.m */; };
+		42D2C76F20E7B3A900657EB7 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D2C76E20E7B3A900657EB7 /* Placeholder.png */; };
+		42D2C77120E7BEFD00657EB7 /* Failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D2C77020E7BEFD00657EB7 /* Failed.png */; };
+		42D2C77320E7C8D300657EB7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2C77220E7C8D300657EB7 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42D2C73020E7AC3000657EB7 /* ClassicPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D2C73420E7AC3000657EB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42D2C73620E7AC3000657EB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42D2C73820E7AC3000657EB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42D2C73C20E7AC3000657EB7 /* ClassicPhotos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClassicPhotos-Info.plist"; sourceTree = "<group>"; };
+		42D2C73E20E7AC3000657EB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42D2C74020E7AC3000657EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D2C74220E7AC3000657EB7 /* ClassicPhotos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassicPhotos-Prefix.pch"; sourceTree = "<group>"; };
+		42D2C74320E7AC3000657EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D2C74420E7AC3000657EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D2C75120E7ACC100657EB7 /* ClassicPhotosDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassicPhotosDictionary.plist; sourceTree = "<group>"; };
+		42D2C75320E7AD4900657EB7 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		42D2C75420E7AD4900657EB7 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		42D2C75520E7AD4900657EB7 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		42D2C75820E7AEF900657EB7 /* PhotoOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoOperations.h; sourceTree = "<group>"; };
+		42D2C75920E7AEF900657EB7 /* PhotoOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoOperations.m; sourceTree = "<group>"; };
+		42D2C76E20E7B3A900657EB7 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		42D2C77020E7BEFD00657EB7 /* Failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Failed.png; sourceTree = "<group>"; };
+		42D2C77220E7C8D300657EB7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D2C72D20E7AC3000657EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D2C73520E7AC3000657EB7 /* UIKit.framework in Frameworks */,
+				42D2C73720E7AC3000657EB7 /* Foundation.framework in Frameworks */,
+				42D2C77320E7C8D300657EB7 /* CoreImage.framework in Frameworks */,
+				42D2C73920E7AC3000657EB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D2C72520E7AC3000657EB7 = {
+			isa = PBXGroup;
+			children = (
+				42D2C73A20E7AC3000657EB7 /* ClassicPhotos */,
+				42D2C73320E7AC3000657EB7 /* Frameworks */,
+				42D2C73120E7AC3000657EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D2C73120E7AC3000657EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D2C73020E7AC3000657EB7 /* ClassicPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D2C73320E7AC3000657EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D2C77220E7C8D300657EB7 /* CoreImage.framework */,
+				42D2C73420E7AC3000657EB7 /* UIKit.framework */,
+				42D2C73620E7AC3000657EB7 /* Foundation.framework */,
+				42D2C73820E7AC3000657EB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42D2C73A20E7AC3000657EB7 /* ClassicPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				42D2C74320E7AC3000657EB7 /* AppDelegate.h */,
+				42D2C74420E7AC3000657EB7 /* AppDelegate.m */,
+				42D2C75320E7AD4900657EB7 /* ListViewController.h */,
+				42D2C75420E7AD4900657EB7 /* ListViewController.m */,
+				42D2C75520E7AD4900657EB7 /* ListViewController.xib */,
+				42D2C75820E7AEF900657EB7 /* PhotoOperations.h */,
+				42D2C75920E7AEF900657EB7 /* PhotoOperations.m */,
+				42D2C73B20E7AC3000657EB7 /* Supporting Files */,
+			);
+			path = ClassicPhotos;
+			sourceTree = "<group>";
+		};
+		42D2C73B20E7AC3000657EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D2C73C20E7AC3000657EB7 /* ClassicPhotos-Info.plist */,
+				42D2C76E20E7B3A900657EB7 /* Placeholder.png */,
+				42D2C77020E7BEFD00657EB7 /* Failed.png */,
+				42D2C75120E7ACC100657EB7 /* ClassicPhotosDictionary.plist */,
+				42D2C73D20E7AC3000657EB7 /* InfoPlist.strings */,
+				42D2C74020E7AC3000657EB7 /* main.m */,
+				42D2C74220E7AC3000657EB7 /* ClassicPhotos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D2C72F20E7AC3000657EB7 /* ClassicPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D2C74E20E7AC3000657EB7 /* Build configuration list for PBXNativeTarget "ClassicPhotos" */;
+			buildPhases = (
+				42D2C72C20E7AC3000657EB7 /* Sources */,
+				42D2C72D20E7AC3000657EB7 /* Frameworks */,
+				42D2C72E20E7AC3000657EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassicPhotos;
+			productName = ClassicPhotos;
+			productReference = 42D2C73020E7AC3000657EB7 /* ClassicPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D2C72720E7AC3000657EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 42D2C72A20E7AC3000657EB7 /* Build configuration list for PBXProject "ClassicPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42D2C72520E7AC3000657EB7;
+			productRefGroup = 42D2C73120E7AC3000657EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D2C72F20E7AC3000657EB7 /* ClassicPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D2C72E20E7AC3000657EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D2C73F20E7AC3000657EB7 /* InfoPlist.strings in Resources */,
+				42D2C75220E7ACC100657EB7 /* ClassicPhotosDictionary.plist in Resources */,
+				42D2C75720E7AD4900657EB7 /* ListViewController.xib in Resources */,
+				42D2C76F20E7B3A900657EB7 /* Placeholder.png in Resources */,
+				42D2C77120E7BEFD00657EB7 /* Failed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D2C72C20E7AC3000657EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D2C74120E7AC3000657EB7 /* main.m in Sources */,
+				42D2C74520E7AC3000657EB7 /* AppDelegate.m in Sources */,
+				42D2C75620E7AD4900657EB7 /* ListViewController.m in Sources */,
+				42D2C75A20E7AEF900657EB7 /* PhotoOperations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42D2C73D20E7AC3000657EB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D2C73E20E7AC3000657EB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D2C74C20E7AC3000657EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42D2C74D20E7AC3000657EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D2C74F20E7AC3000657EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicPhotos/ClassicPhotos-Prefix.pch";
+				INFOPLIST_FILE = "ClassicPhotos/ClassicPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42D2C75020E7AC3000657EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassicPhotos/ClassicPhotos-Prefix.pch";
+				INFOPLIST_FILE = "ClassicPhotos/ClassicPhotos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D2C72A20E7AC3000657EB7 /* Build configuration list for PBXProject "ClassicPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D2C74C20E7AC3000657EB7 /* Debug */,
+				42D2C74D20E7AC3000657EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D2C74E20E7AC3000657EB7 /* Build configuration list for PBXNativeTarget "ClassicPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D2C74F20E7AC3000657EB7 /* Debug */,
+				42D2C75020E7AC3000657EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D2C72720E7AC3000657EB7 /* Project object */;
+}
